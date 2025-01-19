@@ -1,0 +1,21 @@
+#demo_jasper_Report
+server:
+  port: 8081
+spring:
+  main:
+    allow-bean-definition-overriding: true
+  application:
+    name: springboot_Jasper_Repport
+  datasource:
+    url: jdbc:sqlserver://localhost:57134;encrypt=true;trustServerCertificate=true;databaseName=demo_jasper_Report
+    username: admin
+    password: admin
+    driverClassName: com.microsoft.sqlserver.jdbc.SQLServerDriver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.SQLServerDialect
+        format_sql: true
+    show-sql: true
