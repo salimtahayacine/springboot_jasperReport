@@ -5,7 +5,7 @@ spring:
   main:
     allow-bean-definition-overriding: true
   application:
-    name: springboot_Jasper_Repport
+    name: springboot_Jasper_Report
   datasource:
     url: jdbc:sqlserver://localhost:57134;encrypt=true;trustServerCertificate=true;databaseName=demo_jasper_Report
     username: admin
@@ -19,3 +19,4 @@ spring:
         dialect: org.hibernate.dialect.SQLServerDialect
         format_sql: true
     show-sql: true
+##
